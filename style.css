@@ -1,6 +1,7 @@
 h1{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: blue;
+    text-align: center;
 }
 
 p{
@@ -20,3 +21,36 @@ body{
 h2{
     color: blue;
 }
+
+.link:hover{
+    font-weight: bold;
+    background-color: #0C1713;
+    color: white;
+}
+
+#foto{
+    float: left;
+    height: 280px;
+    padding: 10px;
+    background-color: aquamarine;
+
+}
+
+.containerIMG{
+
+    height: 300px;
+    position:relative
+}
+
+.eu{
+    position:absolute;
+    top: 100px;
+    right: 100px;
+
+}
+
+ul li:nth-child(even){
+
+    background-color: rgb(180, 224, 226);
+}
+
